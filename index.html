@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="/dangerweather/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="/dangerweather/css/weather.css" rel="stylesheet">
+
+    <title>Are we in danger of rain?</title>
+</head>
+<body>
+
+<div class="weather-forecast mx-auto mt-3" style="width: 200px;">
+    <div class="weather-clear" style="display: none;">
+        <img src="/dangerweather/img/Weather-clear.svg" class="img-fluid weather-icon" alt="Clear">
+    </div>
+    <div class="weather-clear-night" style="display: none;">
+        <img src="/dangerweather/img/Weather-clear-night.svg" class="img-fluid weather-icon" alt="Clear night">
+    </div>
+    <div class="weather-few-clouds" style="display: none;">
+        <img src="/dangerweather/img/Weather-few-clouds.svg" class="img-fluid weather-icon" alt="Few clouds">
+    </div>
+    <div class="weather-few-clouds-night" style="display: none;">
+        <img src="/dangerweather/img/Weather-few-clouds-night.svg" class="img-fluid weather-icon" alt="Few clouds at night">
+    </div>
+    <div class="weather-overcast" style="display: none;">
+        <img src="/dangerweather/img/Weather-overcast.svg" class="img-fluid weather-icon" alt="Overcast">
+    </div>
+    <div class="weather-severe-alert" style="display: none;">
+        <img src="/dangerweather/img/Weather-sever-alert.svg" class="img-fluid weather-icon" alt="Severe alert!">
+    </div>
+    <div class="weather-showers" style="display: none;">
+        <img src="/dangerweather/img/Weather-showers.svg" class="img-fluid weather-icon" alt="Showers">
+    </div>
+    <div class="weather-showers-scattered" style="display: none;">
+        <img src="/dangerweather/img/Weather-showers-scattered.svg" class="img-fluid weather-icon" alt="Scattered showers">
+    </div>
+    <div class="weather-snow" style="display: none;">
+        <img src="/dangerweather/img/Weather-snow.svg" class="img-fluid weather-icon" alt="Snow">
+    </div>
+    <div class="weather-storm" style="display: none;">
+        <img src="/dangerweather/img/Weather-storm.svg" class="img-fluid weather-icon" alt="Storm">
+    </div>
+
+    <div class="weather-danger" style="display: none;">
+        <button type="button" class="btn btn-danger mx-auto weather-button">Danger</button>
+    </div>
+
+    <div class="weather-nodanger" style="display: none;">
+        <button type="button" class="btn btn-success mx-auto weather-button">No Danger</button>
+    </div>
+</div>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="/dangerweather/js/bootstrap.bundle.min.js"></script>
+<!-- jquery -->
+<script src="/dangerweather/js/jquery-3.6.0.js"></script>
+
+<script src="/dangerweather/js/weather.js"></script>
+
+</body>
+</html>
