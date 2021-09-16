@@ -1,5 +1,6 @@
 # dangerweather
 A simple weather app that displays whether it is going to rain in the next two hours, based on the DWD weather forecast and measurements.
+Head over to https://apollolv.github.io/dangerweather/ to try it out!
 
 ## Forecast details
 If there is more than 0.5 ml precipitation per hour for either the last measurement (not older than 30 minutes) or any future forecast (up to 2 hours), there is danger of rain. 
