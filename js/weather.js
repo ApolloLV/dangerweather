@@ -26,8 +26,8 @@ function update_weather_prediction(user_latitude = 51.2562, user_longitude = 7.1
         $.each(data.weather, function( index, value ) {
             let forecast_time = new Date(value.timestamp);
             if(forecast_time >= danger_begin && forecast_time <= danger_end){
-                console.log( forecast_time.toISOString() + ": " + value.precipitation );
-                if (value.precipitation > 0.5){
+                console.log( "Forecast/Measurement for " + forecast_time.toISOString() + ": " + value.precipitation + "mm/h");
+                if (value.precipitation > 0.3){
                     // It's raining!
                     danger = true;
                 }
